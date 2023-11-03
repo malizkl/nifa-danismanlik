@@ -1,3 +1,17 @@
+@media (max-width: 812px) {
+  .grid {
+    flex-direction: row;
+  }
+
+  .card {
+    flex-basis: 100%; /* Kartların genişliğini tam ekran yap */
+    height: auto; /* Kartların yüksekliğini otomatik ayarla */
+    margin: 1rem 0; /* Kartlar arası boşluk ekleyerek sıkışıklığı önle */
+  }
+}
+
+
+
 .container {
     min-height: 100vh;
     padding: 0 0.5rem;
