@@ -1,13 +1,33 @@
-@media (max-width: 812px) {
-  .grid {
-    flex-direction: row;
-  }
+/* styles.css veya başka bir CSS dosyası */
+.sidebar {
+  position: fixed;
+  height: 100%;
+  width: 250px;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  transition: 0.5s;
+}
 
-  .card {
-    flex-basis: 100%; /* Kartların genişliğini tam ekran yap */
-    height: auto; /* Kartların yüksekliğini otomatik ayarla */
-    margin: 1rem 0; /* Kartlar arası boşluk ekleyerek sıkışıklığı önle */
-  }
+.sidebar a {
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
 }
 
 
@@ -128,11 +148,8 @@
     line-height: 1.5;
   }
 
-  .cardContent {
-    max-width: 100%;
-    text-align: center;
-    margin: auto;
-  }
+
+
 
 
   

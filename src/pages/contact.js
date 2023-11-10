@@ -7,27 +7,27 @@ function ContactPage(){
        
 
         <p className="p-4 font-bold text-black">
-            Adres:  Fatih/Istanbul/Turkey
+            Adres: Marifetname Sk. No:20, Fatih/İstanbul
         </p>
 
         
 
         <a
-        href=""
+        href="https://maps.app.goo.gl/vdACdwddz46Zi7LP9"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <button className="hover:text-green-600 p-4">Click for directions</button>
+        <button className="hover:text-green-600 p-4">Konum için tıklayınız</button>
       </a>
 
 
 
       <p className="p-4 font-bold text-black">
-            Telefon 
+            Telefon : 0535 606 65 98
         </p>
 
         <p className="p-4 font-bold text-black">
-            E-posta 
+            E-posta : nifadanismanlik@gmail.com
         </p>
 
        

@@ -6,8 +6,8 @@ import { faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
 export default function Header() {
   return (
     <header className="p-4">
-      <nav className="flex items-center justify-between">
-        <div className="flex items-center">
+      <nav className="flex  justify-between">
+        <div className="flex ">
           <h1 className="text-logocolor text-2xl font-bold px-6">Nifa Psikolojik Danışmanlık</h1>
         </div>
 
