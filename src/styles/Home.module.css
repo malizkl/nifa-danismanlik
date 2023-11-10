@@ -277,4 +277,80 @@
   text-align: center;
 }
 
-/* Add responsive design adjustments as needed */
+/* Home.module.css */
+/* ... existing styles ... */
+
+.features {
+  position: relative;
+  margin: 2rem 0;
+}
+
+.slider {
+  overflow: hidden;
+  display: flex;
+  scroll-behavior: smooth;
+}
+
+.slides {
+  display: flex;
+}
+
+.card {
+  flex: 0 0 calc(33.333% - 20px); /* each card base width, minus some margin */
+  margin: 10px;
+  box-sizing: border-box;
+  /* ... other styles for card ... */
+}
+
+/* Home.module.css */
+/* ... existing styles ... */
+
+.scrollButton {
+  position: absolute;
+  top: 50%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px; /* Increase padding to make the button larger */
+  font-size: 24px; /* Increase font size for the arrow icons */
+  z-index: 2;
+}
+
+.scrollButton:hover {
+  background-color: #99a998; /* Color for hover state */
+}
+
+.scrollButton:first-child {
+  left: 0;
+}
+
+.scrollButton:last-child {
+  right: 0;
+}
+
+@media (max-width: 768px) {
+  .scrollButton {
+    padding: 15px; /* Slightly smaller buttons on mobile */
+    font-size: 20px; /* Slightly smaller arrow icons on mobile */
+  }
+}
+
+
+.whatsappPopup {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.whatsappLink {
+  color: #25D366; /* WhatsApp brand color */
+  text-decoration: none;
+}

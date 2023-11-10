@@ -9,6 +9,14 @@ function ContactPage() {
         </h1>
   
         <p className="p-4 font-bold text-black">
+          Telefon : 0535 606 65 98
+        </p>
+  
+        <p className="p-4 font-bold text-black">
+          E-posta : nifadanismanlik@gmail.com
+        </p>
+
+        <p className="p-4 font-bold text-black">
           Adres: Marifetname Sk. No:20, Fatih/İstanbul
         </p>
   
@@ -34,14 +42,6 @@ function ContactPage() {
           rel="noopener noreferrer"
         >
         </a>
-  
-        <p className="p-4 font-bold text-black">
-          Telefon : 0535 606 65 98
-        </p>
-  
-        <p className="p-4 font-bold text-black">
-          E-posta : nifadanismanlik@gmail.com
-        </p>
       </div>
     );
   }
