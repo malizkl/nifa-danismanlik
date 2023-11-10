@@ -24,6 +24,9 @@ export default function Header() {
           <Link href="/contact" className="hover:text-logocolor">
             İletişim
           </Link>
+          <Link href="/blog" className="hover:text-logocolor">
+            Blog
+          </Link>
         </div>
 
         <div className="flex items-center space-x-4 px-6">
