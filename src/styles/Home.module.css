@@ -169,3 +169,65 @@
       flex-direction: row;
     }
   }
+
+  /* Other styles... */
+
+/* Adjusting the sidebar for mobile screens */
+@media (max-width: 812px) {
+  .sidebar {
+    width: 100px; /* Reduce width on small screens */
+  }
+
+  .sidebar a {
+    font-size: 18px; /* Smaller font size for the sidebar links */
+    padding: 8px 10px; /* Reduce padding */
+  }
+  
+  .closebtn {
+    font-size: 28px; /* Smaller close button */
+    right: 10px; /* Adjust position */
+  }
+}
+
+/* Adjusting the container and grid for mobile screens */
+@media (max-width: 812px) {
+  .container,
+  .main {
+    padding: 0; /* Reduce or remove padding */
+  }
+
+  .grid {
+    flex-direction: column; /* Stack grid items vertically */
+    align-items: stretch; /* Stretch grid items to full width */
+  }
+
+  .card {
+    flex-basis: auto; /* Allow card to fill the container */
+    width: calc(100% - 2rem); /* Full width minus margin */
+    margin: 1rem; /* Adjust margin */
+    height: auto; /* Make height auto to contain content */
+  }
+
+  .title {
+    font-size: 3rem; /* Smaller title for small screens */
+  }
+
+  .description {
+    font-size: 1.25rem; /* Adjust description font size */
+  }
+
+  /* ... other responsive adjustments ... */
+}
+
+/* Additional media query for very small screens */
+@media (max-width: 480px) {
+  .title {
+    font-size: 2rem; /* Even smaller title for very small screens */
+  }
+
+  .sidebar {
+    width: 80px; /* Even smaller sidebar */
+  }
+
+  /* ... other adjustments for smaller screens ... */
+}
