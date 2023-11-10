@@ -231,3 +231,50 @@
 
   /* ... other adjustments for smaller screens ... */
 }
+
+/* Home.module.css */
+.container {
+  /* Your existing styles... */
+}
+
+.header {
+  width: 100%;
+  padding: 1rem;
+  background-color: #99a998; /* Example color */
+  color: white;
+  text-align: center;
+}
+
+.main {
+  /* Your existing styles... */
+}
+
+.hero {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.features {
+  /* Your existing styles... */
+}
+
+.button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #99a998; /* Example color */
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #99a998; /* Darker shade for hover effect */
+}
+
+.footer {
+  /* Your existing styles... */
+  text-align: center;
+}
+
+/* Add responsive design adjustments as needed */
