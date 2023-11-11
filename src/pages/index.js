@@ -114,6 +114,8 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <p>&copy; {new Date().getFullYear()} Nifa Psikolojik Danışmanlık. All rights reserved.</p>
+        <a className={styles.developedBy} href='https://www.linkedin.com/in/muhammet-ali-özkul-ab5972168/'>Developed with ❤️ by Muhammet Ali Özkul</a>
+
       </footer>
     </div>
   );

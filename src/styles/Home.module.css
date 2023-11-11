@@ -269,7 +269,7 @@
 }
 
 .button:hover {
-  background-color: #99a998; /* Darker shade for hover effect */
+  background-color: #7e957c; /* Darker shade for hover effect */
 }
 
 .footer {
@@ -338,6 +338,9 @@
 }
 
 
+/* Home.module.css */
+/* ... existing styles ... */
+
 .whatsappPopup {
   position: fixed;
   bottom: 20px;
@@ -348,9 +351,33 @@
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.1s ease-in-out; /* Smooth transition for transform */
+}
+
+.whatsappPopup:hover {
+  padding: 20px; /* Increase padding to make the button larger */
 }
 
 .whatsappLink {
   color: #25D366; /* WhatsApp brand color */
   text-decoration: none;
+  display: flex; /* Ensure the FontAwesome icon centers within the link */
+}
+
+
+.developedBy{
+  padding: 4px;
+}
+
+.developedBy:hover{
+  color: #7e957c; /* Darker shade for hover effect */
+}
+
+#__next {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
