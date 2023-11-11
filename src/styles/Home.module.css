@@ -375,3 +375,17 @@
 .developedBy:hover{
   color: #7e957c; /* Darker shade for hover effect */
 }
+
+
+#__next {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 100vh;
+}
+
+@media screen and (max-width: 320px) {
+  #__next {
+    display: flex
+  }
+}
