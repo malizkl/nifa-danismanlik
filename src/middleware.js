@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+import { userAgent } from 'next/server';
 
 export function middleware(request) {
   const device = userAgent(request);
